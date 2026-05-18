@@ -13,6 +13,7 @@ jobs:
     permissions:
       contents: write
       issues: write
+      pull-requests: write
     if: ${{ github.actor == 'dependabot[bot]' }}
     steps:
       - uses: actions/checkout@v2
